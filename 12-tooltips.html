@@ -25,8 +25,7 @@
     <main class="container">
         <div class="row">
             <div class="col-12">
-            
-                  
+                <a href="#" data-toggle="tooltip" title="Discover our great web design service!"> Web Design</a>
             </div>
         </div>
     </main>
@@ -39,6 +38,13 @@
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip({
+                placement: 'top',
+                trigger: 'hover'
+            });
+        });
+    </script>
   </body>
 </html>
